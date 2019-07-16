@@ -26,13 +26,13 @@ In this project I used:
 
 Other tehnologies used:
 
-- [Balsamiq](https://balsamiq.com) for wireframes and mock-ups
+- [Balsamiq](https://balsamiq.com) for the mock-ups
 
 
 <h2>Features</h2>
 •	A navbar at the top of the landing page grants the user quick and easy access to other parts of the site. These links collapse on tablets and mobile devices in order to provide a more appealing experience.
-•   Softscroll was used to allow the website move between sections more fluidly.
-•	A contact form at the end of the site allows the visitor to easily get in touch with the website owner. 
+•   Scroll behaviour was used to allow the website move between sections more fluidly.
+•	A contact form at the end of the site allows the visitor to easily get in touch with the website owner. However as the technology to deploy this has not been learned yet it will open the users default mail browser instead. 
 •	Font Awesome icons are used to provide links to social accounts.
 
 
@@ -117,7 +117,7 @@ Manual testing
 <h2>Credits</h2>
 <h3>Content</h3>
 All content in the ‘About’ & 'Meet the Band' sections was written by the band members.
-All music was provided by the band.
-All video footage links were provided by the band.
+All music was provided by The Golddiggers.
+All video footage links were provided by The Golddiggers.
 <h3>Media</h3>
 All Photos were provided by the band directly.

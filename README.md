@@ -33,10 +33,10 @@ Other tehnologies used:
 
 
 <h2>Features</h2>
-•	A navbar at the top of the landing page grants the user quick and easy access to other parts of the site. These links collapse on tablets and mobile devices in order to provide a more appealing experience.
-•   Scroll behaviour was used to allow the website move between sections more fluidly.
-•	A contact form at the end of the site allows the visitor to easily get in touch with the website owner. However as the technology to deploy this has not been learned yet it will open the users default mail browser instead. 
-•	Font Awesome icons are used to provide links to social accounts.
+- A navbar at the top of the landing page grants the user quick and easy access to other parts of the site. These links collapse on tablets and mobile devices in order to provide a more appealing experience.
+- Scroll behaviour was used to allow the website move between sections more fluidly.
+- A contact form at the end of the site allows the visitor to easily get in touch with the website owner. However as the technology to deploy this has not been learned yet it will open the users default mail browser instead. 
+- Font Awesome icons are used to provide links to social accounts.
 
 
 <h2>User Stories</h2>
@@ -119,21 +119,21 @@ Manual testing
 
 
 <h2>Deployment</h2>
-	1. On GitHub, navigate to your GitHub Pages site's repository.
+-	1. On GitHub, navigate to your GitHub Pages site's repository.
 
-	2. Under your repository name, click  Settings.
+-	2. Under your repository name, click  Settings.
 	
-	3. Use the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
+-	3. Use the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
 	
-	4. Click Save.
+-	4. Click Save.
 	
 	
 <h2>Credits</h2>
 
-W3SCHOOLS
-BootstrapCDN
-HTML & CSS: Design & Build Websites by Jon Duckett
-Read More JS function taken from [W3SCHOOLS] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_read_more)
+- W3SCHOOLS
+- BootstrapCDN
+- HTML & CSS: Design & Build Websites by Jon Duckett
+- Read More JS function taken from [W3SCHOOLS] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_read_more)
 
 <h3>Content</h3>
 

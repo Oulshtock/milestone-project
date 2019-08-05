@@ -8,7 +8,10 @@ The Golddiggers are a band formed back in 2010, who play Music drawn from countr
 My aim was to provide visitors with the overall story of the band, how they formed, a little background story on each 
 member, sample some of their music and to get in touch with them for possible bookings. Also they were about to launch their new Album "Last Frontier" 
 and this was a great opportunity to give their album sales a small boost, by allowing visitors to enquire on how to get their hands on the new album as they were not going to be releasing it on a large scale
-.
+. 
+After meeting the band I got a feel for a western theme from them and their first song released on Soundcloud "Highway Man", therefore the use of the Western looking font on the main page. The use of the Gold Colour was chose also for obvious reasons.
+The main Bacground image was edited with a vintage look also to go with the theme. I decided to go with a  one page scrollable website as I feel they are easier to navigate through from the users point.
+
 
 <h2>Technologies Used</h2>
 
@@ -88,12 +91,14 @@ Manual testing
    -  Click on each song to ensure they play in the website and not bring you to the soundcloud website.
    -  Click the various options in the embedded file such as forward, pause and back to check functionality works.
    -  Check responsivness on various devices using Chrome Developer.
+   -  Multiples of the same song were added to website to fill in the void. As they release more songs on soundcloud they will be added accordingly.
 
 5. Video
 
    -  Click on each video to ensure they play in the website and not bring you to the youtube website.
    -  Click the various options in the embedded file such as forward, pause and back to check functionality works.
    -  Check responsivness on various devices using Chrome Developer.
+   -  The band are working on a better quality video to be uploaded when released for their sont "Highway Man"
 
 6. Album
 
@@ -109,15 +114,32 @@ Manual testing
 
    -  Fill all fields besides one and try to submit. Repeat this leaving empty every field, one by one, while completing the others. An error message should appear.
    -  Try to enter an email adress without using "@" and then submit. An error message should appear.
-   -  Complete all the fields with the correct values and submit. The page should reload.
+   -  Complete all the fields with the correct values and submit. The page will open the default e-mail client running on your computer. The technical knowhow on embedding 
+      the email delivery system within this website has not been learnt yet on this course. To be added at a later stage.
 
 
 <h2>Deployment</h2>
+	1. On GitHub, navigate to your GitHub Pages site's repository.
 
+	2. Under your repository name, click  Settings.
+	
+	3. Use the Select source drop-down menu to select master or gh-pages as your GitHub Pages publishing source.
+	
+	4. Click Save.
+	
+	
 <h2>Credits</h2>
+
+W3SCHOOLS
+BootstrapCDN
+HTML & CSS: Design & Build Websites by Jon Duckett
+Read More JS function taken from [W3SCHOOLS] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_read_more)
+
 <h3>Content</h3>
+
 All content in the ‘About’ & 'Meet the Band' sections was written by the band members.
-All music was provided by The Golddiggers.
-All video footage links were provided by The Golddiggers.
+
 <h3>Media</h3>
-All Photos were provided by the band directly.
+All Photos & videos were provided by the band.
+
+

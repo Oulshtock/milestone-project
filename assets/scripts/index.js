@@ -1,3 +1,5 @@
+// Read More JS function taken from [W3SCHOOLS] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_read_more)
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");

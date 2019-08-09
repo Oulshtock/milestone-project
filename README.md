@@ -110,7 +110,6 @@ Manual testing
 
    -  Check responsivness on various devices using Chrome Developer.
    
-   
 8. Contact Us
 
    -  Fill all fields besides one and try to submit. Repeat this leaving empty every field, one by one, while completing the others. An error message should appear.
@@ -136,7 +135,6 @@ This page was deployed by following the steps below:
 
 
 <h3>How to run this project locally</h3>
-
 
 - Click on this link to the GitHub repository.
 - Click on the green "Clone or download" button on the top right-hand side.

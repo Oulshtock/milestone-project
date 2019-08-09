@@ -33,6 +33,7 @@ Other tehnologies used:
 
 
 <h2>Features</h2>
+
 - A navbar at the top of the landing page grants the user quick and easy access to other parts of the site. These links collapse on tablets and mobile devices in order to provide a more appealing experience.
 - Scroll behaviour was used to allow the website move between sections more fluidly.
 - A contact form at the end of the site allows the visitor to easily get in touch with the website owner. However as the technology to deploy this has not been learned yet it will open the users default mail browser instead. 
@@ -119,7 +120,7 @@ Manual testing
 
 9. Footer
 
-   -  Social media links work for Fsacebook, Youtube and Soundcloud. Added Instagram but band have yet to create an Instagram Account 
+   -  Social media links work for Facebook, Youtube and Soundcloud. Added Instagram but band have yet to create an Instagram Account 
 
 <h2>Deployment</h2>
 

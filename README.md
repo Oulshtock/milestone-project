@@ -1,7 +1,6 @@
-<h1>Milestone Project 1</h1)
+<h1>Milestone Project 1</h1>
 
-For this first milestone project I decided to build this  website for my brother in law's band "The Golddiggers". The timing was just right as they were working on a new Album and they never had a website before,
-but only a facebook page. The jumped at the opportunity to have a website developed for them and I was more than delighted to build it for them.
+For this first milestone project I decided to build this website for my brother in law's band "The Golddiggers". The timing was just right as they were working on a new Album and they never had a website before, but only a facebook page. The jumped at the opportunity to have a website developed for them and I was more than delighted to build it for them.
 The Golddiggers are a band formed back in 2010, who play Music drawn from country, bluegrass, gospel and big standards.
 
 <h2>UX</h2>

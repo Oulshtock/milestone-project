@@ -1,10 +1,11 @@
-<h1>The Golddiggers Website</h1)
-<h2>Milestone Project 1: User-Centric Frontend Development</h2>
+<h1>Milestone Project 1</h1)
+
 For this first milestone project I decided to build this  website for my brother in law's band "The Golddiggers". The timing was just right as they were working on a new Album and they never had a website before,
 but only a facebook page. The jumped at the opportunity to have a website developed for them and I was more than delighted to build it for them.
 The Golddiggers are a band formed back in 2010, who play Music drawn from country, bluegrass, gospel and big standards.
 
 <h2>UX</h2>
+
 My aim was to provide visitors with the overall story of the band, how they formed, a little background story on each 
 member, sample some of their music and to get in touch with them for possible bookings. Also they were about to launch their new Album "Last Frontier" 
 and this was a great opportunity to give their album sales a small boost, by allowing visitors to enquire on how to get their hands on the new album as they were not going to be releasing it on a large scale
@@ -19,12 +20,13 @@ In this project I used:
 
 - HTML (HyperText Markup Lanhuage)
 - CSS (Cascading Style Sheets)
-- [BootstrapCDN](https://getbootstrap.com)
-- [GoogleFonts](https://fonts.google.com)
-- [Fontawesome](https://fontawesome.com)
+- [Bootstrap](https://getbootstrap.com)
+- [Google Fonts](https://fonts.google.com)
+- [Font Awesome](https://fontawesome.com)
 - [Git](https://git-scm.com)
 - [jQuery](https://jquery.com)
-- [favicon](https://favicon.io/)
+- [Javascript](https://www.javascript.com/)
+
 
 
 Other tehnologies used:
@@ -126,11 +128,11 @@ Manual testing
 This page was deployed by following the steps below:
 
 - Log into GitHub.
-- Select the repository Oulshtock/milestone-project.
+- Select the repository of your project Yourname/project.
 - At the top of the page, select the Settings Tab.
 - Scroll down to the GitHub Pages section.
 - Under Source, select Master Branch.
-- The live link for the website will appear beneath the GitHub Pages header with "Your site is published at https://oulshtock.github.io/milestone-project/."
+- The live link for the website will appear beneath the GitHub Pages header with "Your site is published at https://yourusername.github.io/your-repo."
 - Click the link to see the website open in a new tab.
 
 
@@ -139,18 +141,18 @@ This page was deployed by following the steps below:
 - Click on this link to the GitHub repository.
 - Click on the green "Clone or download" button on the top right-hand side.
 - Copy the clone URL for the repository that is provided.
-- Open Git Bash in your Cloud9 IDE.
+- Open Bash in your IDE.
 - Type 'git clone', and then paste the URL copied in the step above.
-- e.g. git clone https://github.com/Oulshtock/milestone-project.git.
+- e.g. git clone https://github.com/Yourname/project.git.
 - Press Enter to create the project locally on your github.	
 	
 <h2>Credits</h2>
 
 - W3SCHOOLS
-- BootstrapCDN
-- HTML & CSS: Design & Build Websites by Jon Duckett
-- Read More JS function taken from [W3SCHOOLS] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_read_more)
-- The design of the Band Members section came from [W3SCHOOLS]https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp)
+- Read More JS function taken from [W3SCHOOLS](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_read_more)
+- The design of the Band Members section came from [W3SCHOOLS](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp)
+- [favicon](https://favicon.io/)
+
 
 <h3>Content</h3>
 

@@ -5,18 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="assets/scripts/index.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One%7CBungee+Shade%7CDiplomata%7CDiplomata+SC%7CEwert%7CFredericka+the+Great%7CHoltwood+One+SC%7CPlaster" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <title>The Gold Diggers</title>
 </head>
 
@@ -29,36 +23,36 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" aria-label="Back to Home Page">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#story">Our Story</a>
+          <a class="nav-link" href="#story" aria-label="About The Golddiggers">Our Story</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#band">The Band</a>
+          <a class="nav-link" href="#band" aria-label="About the Band Members">The Band</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#music">Music</a>
+          <a class="nav-link" href="#music" aria-label="Listen to some of the bands music">Music</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#video">Video</a>
+          <a class="nav-link" href="#video" aria-label="Watch Golddiggers Videos">Video</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#album">Album</a>
+          <a class="nav-link" href="#album" aria-label="Check out our New Album">Album</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#gallery">Gallery</a>
+          <a class="nav-link" href="#gallery" aria-label="Check out a few of our photos">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact"><strong>Contact Us</strong></a>
+          <a class="nav-link" href="#contact" aria-label="Get in contact with us">Contact Us</a>
         </li>
       </ul>
     </div>
   </nav>
-
+  <div class= "container-fluid">
   <div class="bg container-fluid">
     <div class="centered">THE GOLD DIGGERS
-      <p><a class="nav-link" href="#album">Album Out Now!</a></p>
+      <p><a class="nav-link" href="#album" aria-label="Check out our new album" >Album Out Now!</a></p>
     </div>
 
   </div>
@@ -78,7 +72,7 @@
             minimalist percussion, acoustic guitars and close part harmony. This is how it has been for the past nine years. While the Gold Diggers have played at many venues far and wide they are very much at home in The Skillet Bar, Athenry, and in
             Dowling’s Pub, Athenry.</span>
           </p>
-          <button onclick="myFunction()" id="myBtn">Read more</button>
+          <button onclick="readMoreToggle()" id="myBtn">Read more</button>
         </div>
       </div>
     </div>
@@ -95,27 +89,27 @@
       <div id="accordion">
         <div class="row justify-content-center">
           <div class="col-12 col-md-2">
-            <a href="#cha" data-toggle="collapse">
+            <a href="#cha" data-toggle="collapse" aria-label="Cha Taylor">
         <img src="assets/images/cha_bio.png" class="img-circle person" alt="Cha Taylor">
         </a>
           </div>
           <div class="col-12 col-md-2">
-            <a href="#har" data-toggle="collapse">
+            <a href="#har" data-toggle="collapse" aria-label="Harry Monson">
         <img src="assets/images/har_bio.png" class="img-circle person" alt="Harry Monson">
         </a>
           </div>
           <div class="col-12 col-md-2">
-            <a href="#aid" data-toggle="collapse">
+            <a href="#aid" data-toggle="collapse" aria-label="Aidan Archer">
         <img src="assets/images/aidan_bio.png" class="img-circle person" alt="Aidan Archer">
         </a>
           </div>
           <div class="col-12 col-md-2">
-            <a href="#col" data-toggle="collapse">
+            <a href="#col" data-toggle="collapse" aria-label="Colga Coye">
         <img src="assets/images/colga_bio.png" class="img-circle person" alt="Colga Coye">
         </a>
           </div>
           <div class="col-12 col-md-2">
-            <a href="#pat" data-toggle="collapse">
+            <a href="#pat" data-toggle="collapse" aria-label="Pat Naughton">
         <img src="assets/images/pat_bio.png" class="img-circle person" alt="Pat Naughton">
         </a>
           </div>
@@ -180,13 +174,13 @@
       <h2><i class="fas fa-music"></i> Music</h2>
       <div class="row">
         <div class="col-sm-12">
-          <iframe width="900" height="166"  allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/623249058&color=%237c6c54&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe width="900" height="166"  allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/623249058&color=%237c6c54&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" title="Highway Man"></iframe>
         </div>
         <div class="col-sm-12">
-          <iframe width="900" height="166"  allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/623249058&color=%237c6c54&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe width="900" height="166"  allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/623249058&color=%237c6c54&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" title="Highway Man"></iframe>
         </div>
         <div class="col-sm-12">
-          <iframe width="900" height="166"  allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/623249058&color=%237c6c54&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe width="900" height="166"  allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/623249058&color=%237c6c54&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" title="Highway Man"></iframe>
         </div>
       </div>
     </div>
@@ -200,12 +194,12 @@
       <div class="row">
         <div class="col-12 col-sm-6">
           <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jl8QqqqOKAs" width="200" height="200" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jl8QqqqOKAs" title="The Golddiggers Live" width="200" height="200" allowfullscreen></iframe>
           </div>
         </div>
         <div class="col-12 col-sm-6">
           <div class="embed-responsive embed-responsive-4by3">
-            <iframe width="200" height="200" src="https://www.youtube.com/embed/S4uXD7SnM_o" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/S4uXD7SnM_o" title="The Golddiggers Highway man" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -228,7 +222,7 @@
                           The Gold Diggers are launching their album Last Frontier in the Raheen Woods Hotel de Burgo Suite on Friday, 7th June at 8.00pm. There are also guest artists, including Eanna and Sinead. The Gold Diggers will perform a number of songs from their album which will be on sale. It promises to be a great night of celebration.
                           The Gold Diggers are grateful to all in the community who have given such great support over the years. You are all invited to attend.  Admission is free. 
         </i></p>
-          <p>For information on how to obtain a copy of our new album "Last Frontier", please email us <a href="mailto:info@thegolddiggers.ie"><strong>here</strong></a></p>
+          <p>For information on how to obtain a copy of our new album "Last Frontier", please email us <a href="mailto:info@thegolddiggers.ie" aria-label="Send us a mail"><strong>here</strong></a></p>
 
         </div>
       </div>
@@ -243,84 +237,84 @@
       <div class="row">
       <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch1.jpg">
+            <a href="assets/images/launch1.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch1.jpg" alt="Responsive image" class="img-thumbnail" style="width:100%">
         </a>
           </div>
         </div>
       <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch2.jpg">
+            <a href="assets/images/launch2.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch2.jpg" alt="Responsive image" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
       <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch3.jpg">
+            <a href="assets/images/launch3.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch3.jpg" alt="Responsive image" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
       <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch4.jpg">
+            <a href="assets/images/launch4.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch4.jpg" alt="Responsive image" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
       <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch5.jpg">
+            <a href="assets/images/launch5.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch5.jpg" alt="Lights" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
       <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch6.jpg">
+            <a href="assets/images/launch6.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch6.jpg" alt="Lights" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch7.jpg">
+            <a href="assets/images/launch7.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch7.jpg" alt="Lights" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch8.jpg">
+            <a href="assets/images/launch8.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch8.jpg" alt="Lights" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch9.jpg">
+            <a href="assets/images/launch9.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch9.jpg" alt="Lights" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch10.jpg">
+            <a href="assets/images/launch10.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch10.jpg" alt="Lights" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch11.jpg">
+            <a href="assets/images/launch11.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch11.jpg" alt="Lights" class="img-thumbnail" style="width:100%">
       </a>
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
-            <a href="assets/images/launch12.jpg">
+            <a href="assets/images/launch12.jpg" aria-label="Launch Party Photo">
         <img src="assets/images/launch12.jpg" alt="Lights" class="img-thumbnail" style="width:100%">
       </a>
           </div>
@@ -338,7 +332,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="well well-sm">
-            <form class="form-horizontal" action="mailto:" method="post">
+            <form class="form-horizontal">
               <fieldset>
                 <legend class="text-center">Contact us</legend>
 
@@ -378,16 +372,21 @@
         </div>
       </div>
     </div>
-
+</div>
   </section>
 
 <!-- Footer -->
 
 <footer>
-    <a rel="noopener" href="https://www.facebook.com/The-Gold-Diggers-534855726550042/?ref=search&__tn__=%2Cd%2CP-R&eid=ARApYSMLm_CHkzyLAVPSXwtwuhKmSgGdtOzEgDZHTILJlgfICpuf0U2ttmMJPab1BFvr6SNXN4SH1YkX" target="_blank"><i class="fab fa-facebook fa-3x "></i></a>
-    <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
-    <a rel="noopener" href="https://youtu.be/S4uXD7SnM_o" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
-    <a rel="noopener" href="https://soundcloud.com/user-69416803/highwayman" target="_blank"><i class="fab fa-soundcloud fa-3x"></i></a>
+    <a rel="noopener" href="https://www.facebook.com/The-Gold-Diggers-534855726550042/?ref=search&__tn__=%2Cd%2CP-R&eid=ARApYSMLm_CHkzyLAVPSXwtwuhKmSgGdtOzEgDZHTILJlgfICpuf0U2ttmMJPab1BFvr6SNXN4SH1YkX" aria-label="Check out our Facebook page" target="_blank"><i class="fab fa-facebook fa-3x "></i></a>
+    <a href="#"><i class="fab fa-instagram fa-3x" aria-label="Check out our Instagram page"></i></a>
+    <a rel="noopener" href="https://youtu.be/S4uXD7SnM_o" aria-label="Check out our Youtube Videos" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+    <a rel="noopener" href="https://soundcloud.com/user-69416803/highwayman" aria-label="Listen to our new track" target="_blank"><i class="fab fa-soundcloud fa-3x"></i></a>
 </footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/index.js"></script>
+	<script src="https://kit.fontawesome.com/89bab4cfa2.js"></script>
 </body>
 </html>

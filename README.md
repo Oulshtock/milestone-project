@@ -18,7 +18,7 @@ The main Bacground image was edited with a vintage look also to go with the them
 
 
 <p align="center">
-  <img width="400" height="400" src="/assets/wireframes/mockup.png">
+  <img src="/assets/wireframes/mockup.png">
 </p>
 
 <h2>Technologies Used</h2>

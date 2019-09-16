@@ -14,6 +14,12 @@ and this was a great opportunity to give their album sales a small boost, by all
 After meeting the band I got a feel for a western theme from them and their first song released on Soundcloud "Highway Man", therefore the use of the Western looking font on the main page. The use of the Gold Colour was chose also for obvious reasons.
 The main Bacground image was edited with a vintage look also to go with the theme. I decided to go with a  one page scrollable website as I feel they are easier to navigate through from the users point.
 
+###  wireframe concepts
+
+
+<p align="center">
+  <img width="400" height="400" src="/assets/wireframes/mockup.png">
+</p>
 
 <h2>Technologies Used</h2>
 
